@@ -1,0 +1,21 @@
+
+=== Retail Price Intelligence — Statistical Summary ===
+
+Dataset: 999 books (after dedup + zero-price drops)
+
+Spearman Correlation (rating vs price)
+  rho = 0.0296
+  p = 0.3505
+  Interpretation: No significant correlation
+
+Kruskal-Wallis Test (price distributions by rating group)
+  H = 1.5736
+  p = 0.8135
+  Interpretation: No significant difference between groups
+
+Price summary:
+  Median: £36.00
+  Mean:   £35.07
+  Std:    £14.45
+  Min:    £10.00
+  Max:    £59.99
